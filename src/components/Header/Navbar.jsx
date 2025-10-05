@@ -3,7 +3,7 @@ import React from 'react';
 const Navbar = () => {
     const links = <>
         <li className='m-2'>Home</li>
-        <li className='m-2'>About</li>
+        <link to='/about'>About</link>
     </>
     return (
         <div className="navbar bg-base-100 shadow-sm">
