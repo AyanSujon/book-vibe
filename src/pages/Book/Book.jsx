@@ -8,6 +8,9 @@ const Book = ({singleBook}) => {
 
     const {bookName, bookId, author, image, review , rating, category, tags, yearOfPublishing, publisher} = singleBook;
     return (
+
+<>
+
         <Link to={`/bookDetails/${bookId}`}>
             <div className="card bg-base-100  shadow-sm border-1 border-gray-200">
             <figure className=' p-3 bg-gray-100 w-2/3 mx-auto'>
@@ -35,6 +38,12 @@ const Book = ({singleBook}) => {
             </div>
             </div>
         </Link>
+
+
+
+
+
+</>
     );
 };
 
